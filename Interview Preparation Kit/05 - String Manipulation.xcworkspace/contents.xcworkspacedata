@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:05 - String Manipulation/Alternating Characters/Alternating Characters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05 - String Manipulation/Common Child/Common Child.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05 - String Manipulation/Sherlock and the Valid String/Sherlock and the Valid String.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05 - String Manipulation/Special String Again/Special String Again.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05 - String Manipulation/Strings Making Anagrams/Strings Making Anagrams.xcodeproj">
+   </FileRef>
+</Workspace>
