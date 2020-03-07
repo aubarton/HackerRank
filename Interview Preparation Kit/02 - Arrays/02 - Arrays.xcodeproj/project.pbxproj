@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5AD866732414530900BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD8666F2414530900BA30E2 /* 2D Array - DS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A48D241429F000547D8F;
+			remoteInfo = "2D Array - DS";
+		};
+		5AD866792414530F00BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD866752414530F00BA30E2 /* Array Manipulation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A4A024142A0600547D8F;
+			remoteInfo = "Array Manipulation";
+		};
+		5AD8667F2414531400BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD8667B2414531400BA30E2 /* Arrays Left Rotation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A4EC24142A6C00547D8F;
+			remoteInfo = "Arrays Left Rotation";
+		};
+		5AD866852414531A00BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD866812414531A00BA30E2 /* Minimum Swaps 2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A4C624142A3800547D8F;
+			remoteInfo = "Minimum Swaps 2";
+		};
+		5AD8668B2414531E00BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD866872414531E00BA30E2 /* New Year Chaos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A4D924142A4500547D8F;
+			remoteInfo = "New Year Chaos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD8666F2414530900BA30E2 /* 2D Array - DS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2D Array - DS.xcodeproj"; path = "2D Array - DS/2D Array - DS.xcodeproj"; sourceTree = "<group>"; };
+		5AD866752414530F00BA30E2 /* Array Manipulation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Array Manipulation.xcodeproj"; path = "Array Manipulation/Array Manipulation.xcodeproj"; sourceTree = "<group>"; };
+		5AD8667B2414531400BA30E2 /* Arrays Left Rotation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Arrays Left Rotation.xcodeproj"; path = "Arrays Left Rotation/Arrays Left Rotation.xcodeproj"; sourceTree = "<group>"; };
+		5AD866812414531A00BA30E2 /* Minimum Swaps 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Minimum Swaps 2.xcodeproj"; path = "Minimum Swaps 2/Minimum Swaps 2.xcodeproj"; sourceTree = "<group>"; };
+		5AD866872414531E00BA30E2 /* New Year Chaos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "New Year Chaos.xcodeproj"; path = "New Year Chaos/New Year Chaos.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5AD8665C241452E600BA30E2 = {
+			isa = PBXGroup;
+			children = (
+				5AD8666F2414530900BA30E2 /* 2D Array - DS.xcodeproj */,
+				5AD866752414530F00BA30E2 /* Array Manipulation.xcodeproj */,
+				5AD8667B2414531400BA30E2 /* Arrays Left Rotation.xcodeproj */,
+				5AD866812414531A00BA30E2 /* Minimum Swaps 2.xcodeproj */,
+				5AD866872414531E00BA30E2 /* New Year Chaos.xcodeproj */,
+				5AD86666241452E600BA30E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD86666241452E600BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD866702414530900BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD866742414530900BA30E2 /* 2D Array - DS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD866762414530F00BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8667A2414530F00BA30E2 /* Array Manipulation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD8667C2414531400BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD866802414531400BA30E2 /* Arrays Left Rotation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD866822414531A00BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD866862414531A00BA30E2 /* Minimum Swaps 2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD866882414531E00BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8668C2414531E00BA30E2 /* New Year Chaos */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5AD8665D241452E600BA30E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alexey Barton";
+			};
+			buildConfigurationList = 5AD86660241452E600BA30E2 /* Build configuration list for PBXProject "02 - Arrays" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD8665C241452E600BA30E2;
+			productRefGroup = 5AD86666241452E600BA30E2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AD866702414530900BA30E2 /* Products */;
+					ProjectRef = 5AD8666F2414530900BA30E2 /* 2D Array - DS.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD866762414530F00BA30E2 /* Products */;
+					ProjectRef = 5AD866752414530F00BA30E2 /* Array Manipulation.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD8667C2414531400BA30E2 /* Products */;
+					ProjectRef = 5AD8667B2414531400BA30E2 /* Arrays Left Rotation.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD866822414531A00BA30E2 /* Products */;
+					ProjectRef = 5AD866812414531A00BA30E2 /* Minimum Swaps 2.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD866882414531E00BA30E2 /* Products */;
+					ProjectRef = 5AD866872414531E00BA30E2 /* New Year Chaos.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AD866742414530900BA30E2 /* 2D Array - DS */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "2D Array - DS";
+			remoteRef = 5AD866732414530900BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD8667A2414530F00BA30E2 /* Array Manipulation */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Array Manipulation";
+			remoteRef = 5AD866792414530F00BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD866802414531400BA30E2 /* Arrays Left Rotation */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Arrays Left Rotation";
+			remoteRef = 5AD8667F2414531400BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD866862414531A00BA30E2 /* Minimum Swaps 2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Minimum Swaps 2";
+			remoteRef = 5AD866852414531A00BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD8668C2414531E00BA30E2 /* New Year Chaos */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "New Year Chaos";
+			remoteRef = 5AD8668B2414531E00BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		5AD8666A241452E600BA30E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AD8666B241452E600BA30E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD86660241452E600BA30E2 /* Build configuration list for PBXProject "02 - Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD8666A241452E600BA30E2 /* Debug */,
+				5AD8666B241452E600BA30E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD8665D241452E600BA30E2 /* Project object */;
+}

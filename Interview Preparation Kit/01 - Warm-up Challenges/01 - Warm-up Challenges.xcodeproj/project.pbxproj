@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5AD86640241451C200BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD8663C241451C200BA30E2 /* Counting Valleys.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A3492413FF5500547D8F;
+			remoteInfo = "Counting Valleys";
+		};
+		5AD86646241451CB00BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD86642241451CB00BA30E2 /* Jumping on the Clouds.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A3362413FF2F00547D8F;
+			remoteInfo = "Jumping on the Clouds";
+		};
+		5AD8664C241451D400BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD86648241451D400BA30E2 /* Repeated String.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A3232413FF0900547D8F;
+			remoteInfo = "Repeated String";
+		};
+		5AD86652241451DB00BA30E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD8664E241451DB00BA30E2 /* Sock Merchant.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A74A3102413FED600547D8F;
+			remoteInfo = "Sock Merchant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD8663C241451C200BA30E2 /* Counting Valleys.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Counting Valleys.xcodeproj"; path = "Counting Valleys/Counting Valleys.xcodeproj"; sourceTree = "<group>"; };
+		5AD86642241451CB00BA30E2 /* Jumping on the Clouds.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Jumping on the Clouds.xcodeproj"; path = "Jumping on the Clouds/Jumping on the Clouds.xcodeproj"; sourceTree = "<group>"; };
+		5AD86648241451D400BA30E2 /* Repeated String.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Repeated String.xcodeproj"; path = "Repeated String/Repeated String.xcodeproj"; sourceTree = "<group>"; };
+		5AD8664E241451DB00BA30E2 /* Sock Merchant.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Sock Merchant.xcodeproj"; path = "Sock Merchant/Sock Merchant.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5AD866292414517500BA30E2 = {
+			isa = PBXGroup;
+			children = (
+				5AD8663C241451C200BA30E2 /* Counting Valleys.xcodeproj */,
+				5AD86642241451CB00BA30E2 /* Jumping on the Clouds.xcodeproj */,
+				5AD86648241451D400BA30E2 /* Repeated String.xcodeproj */,
+				5AD8664E241451DB00BA30E2 /* Sock Merchant.xcodeproj */,
+				5AD866332414517500BA30E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD866332414517500BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD8663D241451C200BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD86641241451C200BA30E2 /* Counting Valleys */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD86643241451CB00BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD86647241451CB00BA30E2 /* Jumping on the Clouds */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD86649241451D400BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8664D241451D400BA30E2 /* Repeated String */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD8664F241451DB00BA30E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD86653241451DB00BA30E2 /* Sock Merchant */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5AD8662A2414517500BA30E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alexey Barton";
+			};
+			buildConfigurationList = 5AD8662D2414517500BA30E2 /* Build configuration list for PBXProject "01 - Warm-up Challenges" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD866292414517500BA30E2;
+			productRefGroup = 5AD866332414517500BA30E2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AD8663D241451C200BA30E2 /* Products */;
+					ProjectRef = 5AD8663C241451C200BA30E2 /* Counting Valleys.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD86643241451CB00BA30E2 /* Products */;
+					ProjectRef = 5AD86642241451CB00BA30E2 /* Jumping on the Clouds.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD86649241451D400BA30E2 /* Products */;
+					ProjectRef = 5AD86648241451D400BA30E2 /* Repeated String.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AD8664F241451DB00BA30E2 /* Products */;
+					ProjectRef = 5AD8664E241451DB00BA30E2 /* Sock Merchant.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AD86641241451C200BA30E2 /* Counting Valleys */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Counting Valleys";
+			remoteRef = 5AD86640241451C200BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD86647241451CB00BA30E2 /* Jumping on the Clouds */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Jumping on the Clouds";
+			remoteRef = 5AD86646241451CB00BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD8664D241451D400BA30E2 /* Repeated String */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Repeated String";
+			remoteRef = 5AD8664C241451D400BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AD86653241451DB00BA30E2 /* Sock Merchant */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Sock Merchant";
+			remoteRef = 5AD86652241451DB00BA30E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		5AD866372414517500BA30E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AD866382414517500BA30E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD8662D2414517500BA30E2 /* Build configuration list for PBXProject "01 - Warm-up Challenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD866372414517500BA30E2 /* Debug */,
+				5AD866382414517500BA30E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD8662A2414517500BA30E2 /* Project object */;
+}
