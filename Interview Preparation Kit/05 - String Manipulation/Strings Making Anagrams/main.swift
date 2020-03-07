@@ -48,18 +48,18 @@ print("Expected Output: 4")
 let a1 = "cde"
 let b1 = "abc"
 let result1 = makeAnagram(a: a1, b: b1)
-print(result1)
+print(result1, "\n")
 
 print("Case: 2")
 print("Expected Output: 30")
 let a2 = "fcrxzwscanmligyxyvym"
 let b2 = "jxwtrhvujlmrpdoqbisbwhmgpmeoke"
 let result2 = makeAnagram(a: a2, b: b2)
-print(result2)
+print(result2, "\n")
 
 print("Case: 3")
 print("Expected Output: 2")
 let a3 = "showman"
 let b3 = "woman"
 let result3 = makeAnagram(a: a3, b: b3)
-print(result3)
+print(result3, "\n")

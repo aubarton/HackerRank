@@ -57,16 +57,16 @@ print("Case: 1")
 print("Expected Output: NO")
 let s1 = "aabbcd"
 let result1 = isValid(s: s1)
-print(result1)
+print(result1, "\n")
 
 print("Case: 2")
 print("Expected Output: NO")
 let s2 = "aabbccddeefghi"
 let result2 = isValid(s: s2)
-print(result2)
+print(result2, "\n")
 
 print("Case: 3")
 print("Expected Output: YES")
 let s3 = "abcdefghhgfedecba"
 let result3 = isValid(s: s3)
-print(result3)
+print(result3, "\n")

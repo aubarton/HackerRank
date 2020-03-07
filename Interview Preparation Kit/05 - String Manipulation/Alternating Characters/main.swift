@@ -26,45 +26,54 @@ func alternatingCharacters(s: String) -> Int {
 
 print("Case: 1")
 print("Expected Output: 3")
+let s1 =
 let result1 = alternatingCharacters(s: "AAAA")
-print(result1)
+print(result1, "\n")
 
 print("Case: 2")
 print("Expected Output: 4")
-let result2 = alternatingCharacters(s: "BBBBB")
-print(result2)
+let s2 = "BBBBB"
+let result2 = alternatingCharacters(s: s2)
+print(result2, "\n")
 
 print("Case: 3")
 print("Expected Output: 0")
-let result3 = alternatingCharacters(s: "ABABABAB")
-print(result3)
+let s3 = "ABABABAB"
+let result3 = alternatingCharacters(s: s3)
+print(result3, "\n")
 
 print("Case: 4")
 print("Expected Output: 0")
-let result4 = alternatingCharacters(s: "BABABA")
-print(result4)
+let s4 = "BABABA"
+let result4 = alternatingCharacters(s: s4)
+print(result4, "\n")
 
 print("Case: 5")
 print("Expected Output: 4")
-let result5 = alternatingCharacters(s: "AAABBB")
-print(result5)
+let s5 = "AAABBB"
+let result5 = alternatingCharacters(s: s5)
+print(result5, "\n")
 
 print("Case: 6")
 print("Expected Output: 6")
-let result6 = alternatingCharacters(s: "AAABBBAABB")
-print(result6)
+let s6 = "AAABBBAABB"
+let result6 = alternatingCharacters(s: s6)
+print(result6, "\n")
 
 print("Case: 7")
 print("Expected Output: 4")
-let result7 = alternatingCharacters(s: "AABBAABB")
-print(result7)
+let s7 = "AABBAABB"
+let result7 = alternatingCharacters(s: s7)
+print(result7, "\n")
 
 print("Case: 8")
 print("Expected Output: 1")
-let result8 = alternatingCharacters(s: "ABABABAA")
-print(result8)
+let s8 = "ABABABAA"
+let result8 = alternatingCharacters(s: s8)
+print(result8, "\n")
 
 print("Case: 9")
 print("Expected Output: 3")
-let result9 = alternatingCharacters(s: "ABBABBAA")
-print(result9)
+let s9 = "ABBABBAA"
+let result9 = alternatingCharacters(s: s9)
+print(result9, "\n")
