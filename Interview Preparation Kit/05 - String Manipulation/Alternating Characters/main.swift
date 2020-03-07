@@ -26,8 +26,8 @@ func alternatingCharacters(s: String) -> Int {
 
 print("Case: 1")
 print("Expected Output: 3")
-let s1 =
-let result1 = alternatingCharacters(s: "AAAA")
+let s1 = "AAAA"
+let result1 = alternatingCharacters(s: s1)
 print(result1, "\n")
 
 print("Case: 2")
