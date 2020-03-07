@@ -50,17 +50,32 @@ func minimumBribes(q: [Int]) -> Void {
     print(swapsCount)
 }
 
-// Expected Output: 3
-minimumBribes(q: [2, 1, 5, 3, 4])
+print("Case: 1")
+print("Expected Output: 3")
+let q1 = [2, 1, 5, 3, 4]
+minimumBribes(q: q1)
+print("")
 
-// Expected Output: Too chaotic
-minimumBribes(q: [2, 5, 1, 3, 4])
+print("Case: 2")
+print("Expected Output: Too chaotic")
+let q2 = [2, 5, 1, 3, 4]
+minimumBribes(q: q2)
+print("")
 
-// Expected Output: Too chaotic
-minimumBribes(q: [5, 1, 2, 3, 7, 8, 6, 4])
+print("Case: 3")
+print("Expected Output: Too chaotic")
+let q3 = [5, 1, 2, 3, 7, 8, 6, 4]
+minimumBribes(q: q3)
+print("")
 
-// Expected Output: 7
-minimumBribes(q: [1, 2, 5, 3, 7, 8, 6, 4])
+print("Case: 4")
+print("Expected Output: 7")
+let q4 = [1, 2, 5, 3, 7, 8, 6, 4]
+minimumBribes(q: q4)
+print("")
 
-// Expected Output: 4
-minimumBribes(q: [1, 2, 5, 3, 4, 7, 8, 6])
+print("Case: 5")
+print("Expected Output: 4")
+let q5 = [1, 2, 5, 3, 4, 7, 8, 6]
+minimumBribes(q: q5)
+print("")

@@ -38,17 +38,20 @@ func minimumSwaps(arr: [Int]) -> Int {
     return swapCounter
 }
 
-// Expected Output: 3
+print("Case: 1")
+print("Expected Output: 3")
 let arr1 = [4, 3, 1, 2]
 let result1 = minimumSwaps(arr: arr1)
-print(result1)
+print(result1, "\n")
 
-// Expected Output: 3
+print("Case: 2")
+print("Expected Output: 3")
 let arr2 = [2, 3, 4, 1, 5]
 let result2 = minimumSwaps(arr: arr2)
-print(result2)
+print(result2, "\n")
 
-// Expected Output: 3
+print("Case: 3")
+print("Expected Output: 3")
 let arr3 = [1, 3, 5, 2, 4, 6, 7]
 let result3 = minimumSwaps(arr: arr3)
-print(result3)
+print(result3, "\n")

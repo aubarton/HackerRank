@@ -61,7 +61,8 @@ func calculateHourglassSum(hourglass: [[Int]]) -> Int {
     return sum
 }
 
-// Expected Output: 19
+print("Case: 1")
+print("Expected Output: 19")
 let arr1 = [
     [1, 1, 1, 0, 0, 0],
     [0, 1, 0, 0, 0, 0],
@@ -71,9 +72,10 @@ let arr1 = [
     [0, 0, 1, 2, 4, 0],
 ]
 let result1 = hourglassSum(arr: arr1)
-print(result1)
+print(result1, "\n")
 
-// Expected Output: 13
+print("Case: 2")
+print("Expected Output: 13")
 let arr2 = [
     [1, 1, 1, 0, 0, 0],
     [0, 1, 0, 0, 0, 0],
@@ -83,9 +85,10 @@ let arr2 = [
     [0, 0, -1, -2, -4, 0],
 ]
 let result2 = hourglassSum(arr: arr2)
-print(result2)
+print(result2, "\n")
 
-// Expected Output: 28
+print("Case: 3")
+print("Expected Output: 28")
 let arr3 = [
     [-9, -9, -9, 1, 1, 1],
     [0, -9, 0, 4, 3, 2],
@@ -95,4 +98,4 @@ let arr3 = [
     [0, 0, 1, 2, 4, 0],
 ]
 let result3 = hourglassSum(arr: arr3)
-print(result3)
+print(result3, "\n")

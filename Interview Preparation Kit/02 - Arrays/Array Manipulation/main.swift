@@ -32,6 +32,8 @@ func arrayManipulation(n: Int, queries: [[Int]]) -> Int {
 }
 
 // Expected Output: 200
+print("Case: 1")
+print("Expected Output: 200")
 let n1 = 5
 let queries1 = [
     [1, 2, 100],
@@ -39,9 +41,11 @@ let queries1 = [
     [3, 4, 100],
 ]
 let result1 = arrayManipulation(n: n1, queries: queries1)
-print(result1)
+print(result1, "\n")
 
 // Expected Output: 10
+print("Case: 2")
+print("Expected Output: 10")
 let n2 = 10
 let queries2 = [
     [1, 5, 3],
@@ -49,9 +53,11 @@ let queries2 = [
     [6, 9, 1],
 ]
 let result2 = arrayManipulation(n: n2, queries: queries2)
-print(result2)
+print(result2, "\n")
 
 // Expected Output: 31
+print("Case: 3")
+print("Expected Output: 31")
 let n3 = 10
 let queries3 = [
     [2, 6, 8],
@@ -60,4 +66,4 @@ let queries3 = [
     [5, 9, 15],
 ]
 let result3 = arrayManipulation(n: n3, queries: queries3)
-print(result3)
+print(result3, "\n")
