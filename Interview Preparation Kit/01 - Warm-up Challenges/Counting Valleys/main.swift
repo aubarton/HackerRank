@@ -35,11 +35,17 @@ func countingValleys(n: Int, s: String) -> Int {
     return numberOfValleys
 }
 
-// Expected Output: 1
-let result1 = countingValleys(n: 8, s: "UDDDUDUU")
-print(result1)
+print("Case: 1")
+print("Expected Output: 1")
+let n1 = 8
+let s1 = "UDDDUDUU"
+let result1 = countingValleys(n: n1, s: s1)
+print(result1, "\n")
 
 // Expected Output: 2
-let result2 = countingValleys(n: 2, s: "DDUUDDUDUUUD")
-print(result2)
-
+print("Case: 2")
+print("Expected Output: 2")
+let n2 = 2
+let s2 = "DDUUDDUDUUUD"
+let result2 = countingValleys(n: n2, s: s2)
+print(result2, "\n")

@@ -35,10 +35,14 @@ func jumpingOnClouds(c: [Int]) -> Int {
     return jumpCounter
 }
 
-// Expected Output: 4
-let result1 = jumpingOnClouds(c: [0, 0, 1, 0, 0, 1, 0])
-print(result1)
+print("Case: 1")
+print("Expected Output: 4")
+let c1 = [0, 0, 1, 0, 0, 1, 0]
+let result1 = jumpingOnClouds(c: c1)
+print(result1, "\n")
 
-// Expected Output: 3
-let result1 = jumpingOnClouds(c: [0, 0, 0, 1, 0, 0])
-print(result1)
+print("Case: 2")
+print("Expected Output: 3")
+let c2 = [0, 0, 0, 1, 0, 0]
+let result2 = jumpingOnClouds(c: c2)
+print(result2, "\n")

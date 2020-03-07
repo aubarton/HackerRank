@@ -39,6 +39,16 @@ func sockMerchant(n: Int, ar: [Int]) -> Int {
     return pairCounter
 }
 
-let n = 0
-let ar = []
-let result = sockMerchant(n: <#T##Int#>, ar: <#T##[Int]#>)
+print("Case: 1")
+print("Expected Output: 3")
+let n1 = 9
+let ar1 = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+let result1 = sockMerchant(n: n1, ar: ar1)
+print(result1, "\n")
+
+print("Case: 2")
+print("Expected Output: 4")
+let n2 = 10
+let ar2 = [1, 1, 3, 1, 2, 1, 3, 3, 3, 3]
+let result2 = sockMerchant(n: n2, ar: ar2)
+print(result2, "\n")

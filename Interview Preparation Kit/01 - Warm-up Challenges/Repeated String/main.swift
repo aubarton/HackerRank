@@ -37,10 +37,12 @@ func calculateNumberOfLetterA(string: String) -> Int {
     return counter
 }
 
-// Expected Output: 7
+print("Case: 1")
+print("Expected Output: 7")
 let result1 = repeatedString(s: "aba", n: 10)
-print(result1)
+print(result1, "\n")
 
-// Expected Output: 1000000000000
+print("Case: 2")
+print("Expected Output: 1000000000000")
 let result2 = repeatedString(s: "a", n: 1000000000000)
-print(result2)
+print(result2, "\n")
