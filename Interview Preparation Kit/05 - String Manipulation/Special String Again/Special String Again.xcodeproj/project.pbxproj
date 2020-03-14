@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A25B6D624156139005E06E5 /* Tests.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A25B6CE241560CA005E06E5 /* Tests.bundle */; };
+		5A25B6D82415622E005E06E5 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A25B6D72415622E005E06E5 /* test.txt */; };
 		5AD865D72414356300BA30E2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD865D62414356300BA30E2 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,17 +19,28 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				5A25B6D624156139005E06E5 /* Tests.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A25B6CE241560CA005E06E5 /* Tests.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A25B6D0241560CA005E06E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A25B6D72415622E005E06E5 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		5AD865D32414356300BA30E2 /* Special String Again */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Special String Again"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD865D62414356300BA30E2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A25B6CB241560CA005E06E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AD865D02414356300BA30E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A25B6CF241560CA005E06E5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A25B6D0241560CA005E06E5 /* Info.plist */,
+				5A25B6D72415622E005E06E5 /* test.txt */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		5AD865CA2414356300BA30E2 = {
 			isa = PBXGroup;
 			children = (
 				5AD865D62414356300BA30E2 /* main.swift */,
+				5A25B6CF241560CA005E06E5 /* Tests */,
 				5AD865D42414356300BA30E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				5AD865D32414356300BA30E2 /* Special String Again */,
+				5A25B6CE241560CA005E06E5 /* Tests.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +81,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A25B6CD241560CA005E06E5 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A25B6D1241560CA005E06E5 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				5A25B6CA241560CA005E06E5 /* Sources */,
+				5A25B6CB241560CA005E06E5 /* Frameworks */,
+				5A25B6CC241560CA005E06E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 5A25B6CE241560CA005E06E5 /* Tests.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5AD865D22414356300BA30E2 /* Special String Again */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AD865DA2414356300BA30E2 /* Build configuration list for PBXNativeTarget "Special String Again" */;
@@ -84,6 +125,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Alexey Barton";
 				TargetAttributes = {
+					5A25B6CD241560CA005E06E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					5AD865D22414356300BA30E2 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -103,11 +147,30 @@
 			projectRoot = "";
 			targets = (
 				5AD865D22414356300BA30E2 /* Special String Again */,
+				5A25B6CD241560CA005E06E5 /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5A25B6CC241560CA005E06E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A25B6D82415622E005E06E5 /* test.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5A25B6CA241560CA005E06E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AD865CF2414356300BA30E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +182,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		5A25B6D2241560CA005E06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6996H45JYG;
+				INFOPLIST_FILE = Tests/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexey-Barton.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5A25B6D3241560CA005E06E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6996H45JYG;
+				INFOPLIST_FILE = Tests/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexey-Barton.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5AD865D82414356300BA30E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -253,6 +346,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A25B6D1241560CA005E06E5 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A25B6D2241560CA005E06E5 /* Debug */,
+				5A25B6D3241560CA005E06E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5AD865CE2414356300BA30E2 /* Build configuration list for PBXProject "Special String Again" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
